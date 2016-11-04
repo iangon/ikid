@@ -14,6 +14,12 @@
 		3C28DE2E1DCAC40A00524BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C28DE2C1DCAC40A00524BAC /* LaunchScreen.storyboard */; };
 		3C28DE391DCAC40A00524BAC /* iKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28DE381DCAC40A00524BAC /* iKidTests.swift */; };
 		3C28DE441DCAC40A00524BAC /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28DE431DCAC40A00524BAC /* iKidUITests.swift */; };
+		3CCC03511DCACCCD00D57717 /* GoodJokeQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC03501DCACCCD00D57717 /* GoodJokeQuestionViewController.swift */; };
+		3CCC03531DCACD1300D57717 /* GoodJokeAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC03521DCACD1300D57717 /* GoodJokeAnswerViewController.swift */; };
+		3CCC03591DCBCD6E00D57717 /* DadJokeQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC03581DCBCD6E00D57717 /* DadJokeQuestionViewController.swift */; };
+		3CCC035B1DCBCD7C00D57717 /* DadJokeAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC035A1DCBCD7C00D57717 /* DadJokeAnswerViewController.swift */; };
+		3CCC035D1DCBDFCA00D57717 /* BadJokeQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC035C1DCBDFCA00D57717 /* BadJokeQuestionViewController.swift */; };
+		3CCC035F1DCBE06C00D57717 /* BadJokeAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC035E1DCBE06C00D57717 /* BadJokeAnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		3C28DE3F1DCAC40A00524BAC /* iKidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C28DE431DCAC40A00524BAC /* iKidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidUITests.swift; sourceTree = "<group>"; };
 		3C28DE451DCAC40A00524BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CCC03501DCACCCD00D57717 /* GoodJokeQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodJokeQuestionViewController.swift; sourceTree = "<group>"; };
+		3CCC03521DCACD1300D57717 /* GoodJokeAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodJokeAnswerViewController.swift; sourceTree = "<group>"; };
+		3CCC03581DCBCD6E00D57717 /* DadJokeQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadJokeQuestionViewController.swift; sourceTree = "<group>"; };
+		3CCC035A1DCBCD7C00D57717 /* DadJokeAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadJokeAnswerViewController.swift; sourceTree = "<group>"; };
+		3CCC035C1DCBDFCA00D57717 /* BadJokeQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadJokeQuestionViewController.swift; sourceTree = "<group>"; };
+		3CCC035E1DCBE06C00D57717 /* BadJokeAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadJokeAnswerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,18 @@
 		3C28DE221DCAC40A00524BAC /* iKid */ = {
 			isa = PBXGroup;
 			children = (
+				3CCC03521DCACD1300D57717 /* GoodJokeAnswerViewController.swift */,
+				3CCC03501DCACCCD00D57717 /* GoodJokeQuestionViewController.swift */,
 				3C28DE231DCAC40A00524BAC /* AppDelegate.swift */,
 				3C28DE251DCAC40A00524BAC /* ViewController.swift */,
 				3C28DE271DCAC40A00524BAC /* Main.storyboard */,
 				3C28DE2A1DCAC40A00524BAC /* Assets.xcassets */,
 				3C28DE2C1DCAC40A00524BAC /* LaunchScreen.storyboard */,
 				3C28DE2F1DCAC40A00524BAC /* Info.plist */,
+				3CCC03581DCBCD6E00D57717 /* DadJokeQuestionViewController.swift */,
+				3CCC035A1DCBCD7C00D57717 /* DadJokeAnswerViewController.swift */,
+				3CCC035C1DCBDFCA00D57717 /* BadJokeQuestionViewController.swift */,
+				3CCC035E1DCBE06C00D57717 /* BadJokeAnswerViewController.swift */,
 			);
 			path = iKid;
 			sourceTree = "<group>";
@@ -262,8 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CCC03591DCBCD6E00D57717 /* DadJokeQuestionViewController.swift in Sources */,
+				3CCC035D1DCBDFCA00D57717 /* BadJokeQuestionViewController.swift in Sources */,
+				3CCC03511DCACCCD00D57717 /* GoodJokeQuestionViewController.swift in Sources */,
+				3CCC035F1DCBE06C00D57717 /* BadJokeAnswerViewController.swift in Sources */,
 				3C28DE261DCAC40A00524BAC /* ViewController.swift in Sources */,
+				3CCC03531DCACD1300D57717 /* GoodJokeAnswerViewController.swift in Sources */,
 				3C28DE241DCAC40A00524BAC /* AppDelegate.swift in Sources */,
+				3CCC035B1DCBCD7C00D57717 /* DadJokeAnswerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +536,7 @@
 				3C28DE4A1DCAC40A00524BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C28DE4B1DCAC40A00524BAC /* Build configuration list for PBXNativeTarget "iKidTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +545,7 @@
 				3C28DE4D1DCAC40A00524BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C28DE4E1DCAC40A00524BAC /* Build configuration list for PBXNativeTarget "iKidUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +554,7 @@
 				3C28DE501DCAC40A00524BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
